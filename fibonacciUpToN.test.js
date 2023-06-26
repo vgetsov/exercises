@@ -7,6 +7,10 @@ it('works', () => {
     expect(() => {
         printFibo(0)
     }).toThrow()
+    expect(() => {
+        printFibo('')
+    }).toThrow()
+    expect(printFibo('5')).toStrictEqual([0, 1, 1, 2, 3])
     expect(printFibo(1)).toStrictEqual([0])
     expect(printFibo(2)).toStrictEqual([0, 1])
     expect(printFibo(3)).toStrictEqual([0, 1, 1])

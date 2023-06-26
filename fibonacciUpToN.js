@@ -1,6 +1,6 @@
 const printFibo = (n) => {
     if (n < 1) {
-        throw new Error('n should be 0 or bigger')
+        throw new Error('n should be 1 or bigger')
     }
 
     if (n === 1) {
