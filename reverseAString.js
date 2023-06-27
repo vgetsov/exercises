@@ -3,9 +3,7 @@
 const reverseString = (string) =>
     string
         .split('')
-        .reduce((acc, currValue) => {
-            return [currValue, ...acc]
-        }, [])
+        .reduce((acc, currValue) => [currValue, ...acc], [])
         .join('')
 
 module.exports = { reverseString }
