@@ -1,9 +1,9 @@
 const { reverseString } = require('./reverseAString.js')
 
 it('works', () => {
-    expect(reverseString('hello')).toStrictEqual('olleh')
-    expect(reverseString('null')).toStrictEqual('llun')
-    expect(reverseString('456')).toStrictEqual('654')
+    expect(reverseString('hello')).toBe('olleh')
+    expect(reverseString('null')).toBe('llun')
+    expect(reverseString('456')).toBe('654')
     expect(() => {
         reverseString(undefined)
     }).toThrow()

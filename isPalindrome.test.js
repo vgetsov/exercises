@@ -1,11 +1,11 @@
 const { isPalindrome } = require('./isPalindrome.js')
 
 it('works', () => {
-    expect(isPalindrome('redder')).toBe(true)
-    expect(isPalindrome('r')).toBe(true)
-    expect(isPalindrome('555')).toBe(true)
-    expect(isPalindrome('undefined')).toBe(false)
-    expect(isPalindrome('computer')).toBe(false)
+    expect(isPalindrome('redder')).toBeTruthy()
+    expect(isPalindrome('r')).toBeTruthy()
+    expect(isPalindrome('555')).toBeTruthy()
+    expect(isPalindrome('undefined')).toBeFalsy()
+    expect(isPalindrome('computer')).toBeFalsy()
     expect(() => {
         isPalindrome(555)
     }).toThrow()

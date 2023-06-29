@@ -1,9 +1,9 @@
 const { reverseStringWithRecursion } = require('./reverseStringWithRecursion.js')
 
 it('works', () => {
-    expect(reverseStringWithRecursion('hello')).toStrictEqual('olleh')
-    expect(reverseStringWithRecursion('null')).toStrictEqual('llun')
-    expect(reverseStringWithRecursion('456')).toStrictEqual('654')
+    expect(reverseStringWithRecursion('hello')).toBe('olleh')
+    expect(reverseStringWithRecursion('null')).toBe('llun')
+    expect(reverseStringWithRecursion('456')).toBe('654')
     expect(() => {
         reverseStringWithRecursion(undefined)
     }).toThrow()
