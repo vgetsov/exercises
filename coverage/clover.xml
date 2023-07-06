@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688038993103" clover="3.2.0">
-  <project timestamp="1688038993103" name="All files">
-    <metrics statements="179" coveredstatements="179" conditionals="44" coveredconditionals="44" methods="9" coveredmethods="9" elements="232" coveredelements="232" complexity="0" loc="179" ncloc="179" packages="1" files="8" classes="8"/>
+<coverage generated="1688646153757" clover="3.2.0">
+  <project timestamp="1688646153757" name="All files">
+    <metrics statements="213" coveredstatements="213" conditionals="57" coveredconditionals="57" methods="12" coveredmethods="12" elements="282" coveredelements="282" complexity="0" loc="213" ncloc="213" packages="1" files="11" classes="11"/>
     <file name="anagrams.js" path="C:\Personal\exercises\anagrams.js">
       <metrics statements="18" coveredstatements="18" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
@@ -22,6 +22,14 @@
       <line num="16" count="13" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
+    </file>
+    <file name="checkCorrectness.js" path="C:\Personal\exercises\checkCorrectness.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
     </file>
     <file name="fibonacciUpToN.js" path="C:\Personal\exercises\fibonacciUpToN.js">
       <metrics statements="46" coveredstatements="46" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
@@ -167,6 +175,26 @@
       <line num="34" count="1" type="stmt"/>
       <line num="35" count="1" type="stmt"/>
     </file>
+    <file name="renderHearts.js" path="C:\Personal\exercises\renderHearts.js">
+      <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="12" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="1" falsecount="0"/>
+      <line num="5" count="8" type="stmt"/>
+      <line num="6" count="12" type="cond" truecount="1" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="10" count="12" type="cond" truecount="1" falsecount="0"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
     <file name="reverseAString.js" path="C:\Personal\exercises\reverseAString.js">
       <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -204,6 +232,21 @@
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="toPascalCase.js" path="C:\Personal\exercises\toPascalCase.js">
+      <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="12" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="7" count="6" type="stmt"/>
+      <line num="8" count="6" type="cond" truecount="1" falsecount="0"/>
+      <line num="9" count="6" type="stmt"/>
+      <line num="10" count="6" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
